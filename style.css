@@ -1,0 +1,47 @@
+CSS
+body {
+  font-family: 'EB Garamond', 'Garamond', 'Georgia', serif; 
+  font-style: italic;
+  font-size: 1.15rem; /* Slightly larger base size, as Garamond runs a bit small */
+  line-height: 1.6;
+  color: #2b2b2b; /* A soft charcoal ink color */
+  background-color: #f7fafc;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Headers */
+h1, h2 {
+  color: #1a202c;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Links */
+a {
+  color: #3182ce;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+/* Lists */
+ol, ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
