@@ -1,4 +1,10 @@
 CSS
+
+body, p, h1, h2, h3, li, a {
+  font-family: 'EB Garamond', 'Garamond', 'Georgia', serif;
+  font-style: italic;
+}
+
 body {
   font-family: 'EB Garamond', 'Garamond', 'Georgia', serif; 
   font-style: italic;
