@@ -25,15 +25,14 @@
 </header>
     <!-- Site Content -->
 
-  <h1>Hello Butts!</h1>
-      <p>My portfolio is coming soon.</p>
+  <h1>Hello!</h1>
+      <p>Welcome to my website. I'm currently working on my book tracker.</p>
   
   <div id="wifi-checker">
   <p>Checking network...</p>
 </div>
   
-  <h2>This website was built by me and Gemini and also a book from the library.</h2>
-    <p>This page is starting to have links to other pages. <br>  </p>
+  <h2>This website was built by me and Gemini.</h2>
     <a href="https://www.google.com">This is a link to Google </a> <br>
     <a href="https://docs.google.com/spreadsheets/d/1J0C5V48KZYGEdEo2UevCNc7GynN8nvW1MoJXu5V3zJA/edit?gid=0#gid=0"> This is a link to my book reading tracker </a> <br>
     <a href="about.html"> This is a link to the about page. </a> <br>
@@ -42,6 +41,38 @@
   
   <img src="fluffy.jpg" alt="Here's a picture of me looking fluffy." width="300">
   
+    <main>
+    <section id="reading-tracker">
+        <h2>My Reading Dashboard</h2>
+
+        <!-- Annual Goal Progress Card -->
+        <div id="stats-dashboard">
+            <div class="stat-card">
+                <h3 id="goal-title">Reading Challenge</h3>
+                <p id="goal-text">Loading progress...</p>
+                <div class="progress-bar-container">
+                    <div id="progress-fill" style="width: 0%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Container -->
+        <div id="charts-container">
+            <div class="chart-wrapper">
+                <h3>Monthly Pages Read</h3>
+                <canvas id="monthlyChart"></canvas>
+            </div>
+            <div class="chart-wrapper">
+                <h3>Yearly Total Pages</h3>
+                <canvas id="yearlyChart"></canvas>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Include Chart.js Library via CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
   <h2>Ideas on what scripts to implement.</h2>
     <ol><li>Dark/Light Mode Switcher</li><li>Dynamic Current Year for Copyright lol</li><li>Fetching to my book tracker document</li>
     </ol>

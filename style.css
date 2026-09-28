@@ -102,4 +102,68 @@ li {
   color: #ffffff;
   text-decoration: underline;
 }
+#reading-tracker {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    font-family: system-ui, -apple-system, sans-serif;
+    color: #24292e;
+}
 
+#reading-tracker h2 {
+    margin-bottom: 24px;
+    font-size: 1.8rem;
+}
+
+#stats-dashboard {
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background: #f8f9fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.stat-card h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.progress-bar-container {
+    background: #e1e4e8;
+    border-radius: 6px;
+    height: 14px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 12px;
+}
+
+#progress-fill {
+    background: #2ea44f;
+    height: 100%;
+    width: 0%;
+    transition: width 0.6s ease-in-out;
+}
+
+#charts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+.chart-wrapper {
+    background: #fff;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.chart-wrapper h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #586069;
+}
